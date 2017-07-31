@@ -1,0 +1,42 @@
+hash: 48583f69f396e7d8589ee24f71c501a926b476bc315397b68343a3f85550b28a
+updated: 2017-07-31T15:53:05.133866428+09:00
+imports:
+- name: github.com/auth0-community/auth0
+  version: ddccc8c42b10930688a7751fd4475c9cfa11f80c
+- name: github.com/auth0-community/go-auth0
+  version: ddccc8c42b10930688a7751fd4475c9cfa11f80c
+- name: github.com/auth0/go-jwt-middleware
+  version: 5493cabe49f7bfa6e2ec444a09d334d90cd4e2bd
+- name: github.com/golang/protobuf
+  version: 6a1fa9404c0aebf36c879bc50152edcc953910d2
+  subpackages:
+  - proto
+- name: github.com/gorilla/handlers
+  version: a4d79d4487c2430a17d9dc8a1f74d1a6ed6908ca
+- name: github.com/gorilla/mux
+  version: bcd8bc72b08df0f70df986b97f95590779502d31
+- name: github.com/joho/godotenv
+  version: 3ddb2792f3923947290c4932990136e17852a078
+- name: golang.org/x/net
+  version: 054b33e6527139ad5b1ec2f6232c3b175bd9a30c
+  subpackages:
+  - context
+  - context/ctxhttp
+- name: golang.org/x/oauth2
+  version: cce311a261e6fcf29de72ca96827bdb0b7d9c9e6
+  subpackages:
+  - clientcredentials
+  - internal
+- name: google.golang.org/appengine
+  version: ad2570cd3913654e00c5f0183b39d2f998e54046
+  subpackages:
+  - internal
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/remote_api
+  - internal/urlfetch
+  - urlfetch
+- name: gopkg.in/square/go-jose.v2
+  version: b25e6cab129e4a54675b42ea49d38e9c33ade9e6
+testImports: []
